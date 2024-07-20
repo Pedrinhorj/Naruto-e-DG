@@ -1,0 +1,55 @@
+/*
+TAGS
+*/
+
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+section article {
+    margin-right: 20px;
+}
+/*
+ID'S
+*/
+
+#logo-Title-Naruto {
+    width: 300px;
+    height: 130px;
+}
+
+#position-header{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+#input-search-person, button img {
+    height: 25px;
+    margin-top: 0;
+}
+
+#nav-search-title {
+    flex-direction: column;
+
+}
+
+#select-topics {
+    width: 150px;
+    height: 27.2px;
+}
+
+#btn-lupa {
+    position: relative;
+    top: 5px;
+}
+
+/*
+CLASSES
+*/
+
+.flex {
+    display: flex;
+}
+
