@@ -10,6 +10,11 @@ body {
 section article {
     margin-right: 20px;
 }
+
+header {
+    position: sticky;
+    top: 0;
+}
 /*
 ID'S
 */
@@ -37,7 +42,12 @@ ID'S
 
 #select-topics {
     width: 150px;
-    height: 27.2px;
+    height: 29.2px;
+}
+
+#container-select-topics {
+    position: relative;
+    top: 8px;
 }
 
 #btn-lupa {
