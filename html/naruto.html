@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naruto</title>
     <link rel="stylesheet" href="../css/naruto/naruto.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -22,7 +27,7 @@
                         <label for="">Pesquisar por personagem</label>
                     </div>
                     <input type="text" id="input-search-person">
-                    <button id="btn-lupa"><img src="../images/lupa.png" alt="lupa de pesquisa"></button>
+                    <button id="btn-lupa"><img src="../images/lupa.png" alt="lupa de pesquisa" id="img-lupa"></button>
                 </article>
                 <nav class="flex" id="nav-search-title">
                     <div>
@@ -43,6 +48,49 @@
             </section>
         </section>
     </header>
+
+    <main>
+        <section class="flex" id="naruto-container">
+            <article id="cards-naruto" class="flex">
+                <div class="card" style="width: 20rem;">
+                    <img src="../images/Naruto/naruto-crianca.png" class="card-img-top" alt="naruto criança imagem">
+                    <div class="card-body flex" id="description-card">
+                      <h5 class="card-title">Naruto Clássico</h5>
+                      <p class="card-text">Conheça um pouco sobre o arco do Naruto Clássico.</p>
+                      <hr>
+                      <a href="#" class="btn btn-info">Clique aqui</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 20rem;">
+                    <img src="../images/Naruto/naruto-jovem.jpg" class="card-img-top" alt="naruto jovem imagem">
+                    <div class="card-body flex" id="description-card">
+                      <h5 class="card-title">Naruto Shippuden</h5>
+                      <p class="card-text">Conheça um pouco sobre o arco do Naruto Shippuden.</p>
+                      
+                      <hr>
+                          <a href="#" class="btn btn-info">Clique aqui</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 20rem;">
+                    <img src="../images/Naruto/naruto-adulto.jpg" class="card-img-top" alt="naruto adulto imagem">
+                    <div class="card-body flex" id="description-card">
+                      <h5 class="card-title">Boruto (Naruto Adulto)</h5>
+                      <p class="card-text">Conheça um pouco sobre o arco de Boruto.</p>
+                      <hr>
+                      <a href="#" class="btn btn-info">Clique aqui</a>
+                    </div>
+                  </div>
+               
+            </article>
+            <article class="flex" id="phrase-naruto-container">
+                <span class="aspas-phrase-naruto">"</span>
+                <section id="phrase-naruto">E o meu sonho é ser o maior Hokage!! Dessa forma, as pessoas vão parar de me
+                    desrespeitar e começar a me tratar como se eu fosse alguém. Alguém importante!</section>
+                <span class="aspas-phrase-naruto">"</span>
+            </article>
+        </section>
+
+    </main>
 
 </body>
 

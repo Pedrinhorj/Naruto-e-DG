@@ -3,8 +3,8 @@ TAGS
 */
 
 body {
-    background-color: black;
-    color: aliceblue;
+    background-color: #000000 !important;
+    color: aliceblue !important;
 }
 
 section article {
@@ -14,10 +14,13 @@ section article {
 header {
     position: sticky;
     top: 0;
+    background-color: #aeced2;
 }
 /*
 ID'S
 */
+
+/*COMEÇO HEADER*/
 
 #logo-Title-Naruto {
     width: 300px;
@@ -27,12 +30,20 @@ ID'S
 #position-header{
     flex-direction: row;
     justify-content: space-between;
-    align-items: end;
+    align-items: center;
 }
 
-#input-search-person, button img {
+#img-lupa {
     height: 25px;
-    margin-top: 0;
+}
+
+#btn-lupa {
+    position: relative;
+    top: 6.5px;
+}
+
+#input-search-person {
+    height: 29px;
 }
 
 #nav-search-title {
@@ -42,18 +53,52 @@ ID'S
 
 #select-topics {
     width: 150px;
-    height: 29.2px;
+    height: 33px;
 }
 
 #container-select-topics {
     position: relative;
-    top: 8px;
+    top: 6px;
+    margin-right: 10px;
 }
 
-#btn-lupa {
-    position: relative;
-    top: 5px;
+/*FIM HEADER*/
+
+#naruto-container {
+    flex-direction: column;
+    margin-top: 20px;
 }
+
+/*INICIO PHRASE NARUTO*/
+
+#phrase-naruto-container {
+    margin-top: 100px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#img-naruto-phrase {
+    height: 300px;
+}
+
+#phrase-naruto {
+    width: 300px;
+    margin: 10px;
+}
+
+/*FIM PHRASE NARUTO*/
+
+/*INICIO CARDS NARUTO*/
+
+#cards-naruto {
+    justify-content: space-around;
+}
+
+#description-card {
+    flex-direction: column;
+}
+
+/*FIM CARDS NARUTO*/
 
 /*
 CLASSES
@@ -61,5 +106,10 @@ CLASSES
 
 .flex {
     display: flex;
+}
+
+.aspas-phrase-naruto {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
 }
 
