@@ -1,0 +1,78 @@
+header{
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(0, 0, 0, alpha);
+    width: 30%;
+}
+input{
+    background-image: url(../imagens/magnifier-1_icon-icons.com_56924.png);
+    background-repeat: no-repeat;
+    width:15em;
+    height: 2em;  
+    border-radius: 10px;
+}
+.logo{
+    width: 30em;
+}
+
+h1{
+    background-color: #333;
+    color: white;
+    padding: 3%;
+    width: 7em;
+    cursor: pointer;
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+}
+h1:hover{
+    background-color: black;
+}
+ul{
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: auto;
+    padding: 2%;
+}
+.dropdown-list{
+    display: none;
+    
+}
+.dropdown:hover .dropdown-list, .dropdown-button:hover + .dropdown-list {
+    display: block;
+}
+
+p{
+    color: white;
+    width: 100%;
+    padding: 2%;
+    margin: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+p:hover{
+    background-color: black;
+    font-size: 20px;
+}
+
+
+body{
+    background-color: #181818;
+}
+div{
+    display: flex;
+    min-height: 100vh;
+}
+main{
+    background-image: url(../imagens/OIG4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:auto;
+    opacity: 0.2;
+    flex-grow: 1;
+    padding: 1;
+}
