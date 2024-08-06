@@ -98,6 +98,16 @@ ID'S
     flex-direction: column;
 }
 
+.box-btn-click-here {
+    height: 100%; 
+    display: flex; 
+    align-items: end; 
+}
+
+#btn-card3, #btn-card2, #btn-card1 {
+    width: 100%;
+}
+
 /*FIM CARDS NARUTO*/
 
 /*
