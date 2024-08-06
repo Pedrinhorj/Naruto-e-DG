@@ -94,6 +94,11 @@ ID'S
     justify-content: space-around;
 }
 
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
 #description-card {
     flex-direction: column;
 }
