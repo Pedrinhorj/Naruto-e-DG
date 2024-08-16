@@ -7,7 +7,9 @@ header{
 input{
     background-image: url(../imagens/magnifier-1_icon-icons.com_56924.png);
     background-repeat: no-repeat;
-    width:15em;
+    background-size:contain;
+    background-position: 100%;
+    width:25em;
     height: 2em;  
     border-radius: 10px;
 }
@@ -15,55 +17,51 @@ input{
     width: 30em;
 }
 
-h1{
-    background-color: #333;
-    color: white;
-    padding: 3%;
-    width: 7em;
+button{
+    background-color: #333 !important ;
+    color: white !important ;
+    padding: 3% !important ;
+    width: auto !important ;
     cursor: pointer;
-    margin: 0;
-    text-align: center;
-    font-size: 25px;
+    margin: 0 !important ;
+    text-align: center !important ;
+    font-size: 25px !important;
+    border: #181818 solid 1px !important;
 }
-h1:hover{
-    background-color: black;
-}
+
 ul{
-    background-color: #181818;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: auto;
-    padding: 2%;
-}
-.dropdown-list{
-    display: none;
+    background-color: rgb(24, 24, 24) !important;
+    width: 25em!important;
+    padding: 3%!important;
     
 }
-.dropdown:hover .dropdown-list, .dropdown-button:hover + .dropdown-list {
-    display: block;
+
+.btn-group{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
 }
 
-p{
-    color: white;
-    width: 100%;
-    padding: 2%;
-    margin: 0;
-}
 a{
-    color: white;
-    text-decoration: none;
+    color: rgb(78, 78, 78) !important;
+    width: 100%!important;
+    padding: 3%!important;
+    margin: 0!important;
 }
-p:hover{
-    background-color: black;
-    font-size: 20px;
+li{
+    border-bottom: #ffffff solid 1px;
 }
-
+a:hover{
+    color: white!important;
+    text-decoration: none !important;
+    background-color: #333 !important;
+}
 
 body{
-    background-color: #181818;
+    background-color: #181818 !important;
 }
-div{
+.conteiner1{
     display: flex;
     min-height: 100vh;
 }
