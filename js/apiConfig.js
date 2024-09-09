@@ -1,0 +1,1 @@
+export const BASE_URL_NARUTO = 'https://narutodb.xyz/api/';
